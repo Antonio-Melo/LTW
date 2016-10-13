@@ -1,0 +1,54 @@
+html{
+  background-color: #D3D3D3;
+}
+body{
+  margin-top: 0px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: white;
+}
+#header{
+  height: 65%;
+  background-color: grey;
+  color: white
+  padding: 30px;
+  font-family: sans-serif;
+}
+#header h1{
+  margin: 0px 15px 0px 15px;
+}
+
+#header h2{
+  margin: 30px 15px 30px 15px;
+}
+
+#menu{
+}
+#menu ul{
+  margin:0px;
+  background-color: #8B0000;
+  padding: 15px;
+}
+
+ul li{
+  display: inline;
+  padding: 5px;
+  border-right: 1px solid white;
+}
+
+ul li a{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+#last{
+  border-right: none;
+}
+
+#content h3{
+  font-family: sans-serif;
+}
+#content img{
+  float: left;
+}
