@@ -10,8 +10,8 @@ body{
 #header{
   height: 65%;
   background-color: grey;
-  color: white
-  padding: 30px;
+  color: white;
+  padding: 30px 10px 30px 10px;
   font-family: sans-serif;
 }
 #header h1{
@@ -51,4 +51,20 @@ ul li a{
 }
 #content img{
   float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#content ul{
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+}
+
+#content ul li{
+  background-color: #696969;
+}
+
+.news-item{
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
 }
