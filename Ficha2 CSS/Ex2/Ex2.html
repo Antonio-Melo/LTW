@@ -48,7 +48,6 @@
       Mauris semper velit at risus faucibus fermentum. Nam molestie, libero non feugiat adipiscing, risus
       magna laoreet tortor, in tincidunt est quam quis dui. Aliquam feugiat libero at magna rhoncus vitae
       ullamcorper ipsum euismod.
-      <span onclick="this.parentElement.style.display='none'">x</span>
     </div>
     <div id= "Contacts" class="tabcontent">
       Nam elit ipsum, rhoncus eu porta et, venenatis id lorem. Maecenas in lectus volutpat enim ornare
@@ -57,7 +56,9 @@
       lacus accumsan augue, vitae rhoncus tellus est et metus. Cum sociis natoque penatibus et magnis dis
       parturient montes, nascetur ridiculus mus. Pellentesque elementum erat eget odio pretium at cursus
       nisl tristique.
-      <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+    <div id="Welcome" class="tabcontent">
+      Welcome
     </div>
 
     <script>
@@ -74,6 +75,13 @@
         document.getElementById(tabName).style.display = "block";
         evt.currentTarget.className += " active";
     }
+    </script>
+
+    <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Welcome')" id="defaultOpen"></a>
+
+    <script>
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
     </script>
   </body>
 </html>
