@@ -1,0 +1,27 @@
+div {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 4em;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+#a {
+  background-color: yellow;
+}
+
+#b {
+  background-color: blue;
+}
+
+#c {
+  background-color: green;
+  clear: left;
+}
+
+#d {
+  background-color: red;
+}

@@ -1,0 +1,38 @@
+body {
+  width: 812px;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 4em;
+}
+
+#a {
+  background-color: yellow;
+  width: 800px;
+}
+
+#b {
+  background-color: blue;
+  width: 590px;
+  float: right;
+  margin: 0;
+}
+
+#c {
+  background-color: green;
+  width: 190px;
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+#d {
+  background-color: red;
+  width: 800px;
+  clear: left;
+}
