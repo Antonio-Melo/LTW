@@ -1,0 +1,83 @@
+*{
+  margin:0px;
+  padding:0px;
+  border-width:0px;
+}
+html, body{
+  width:100%;
+  height:100%;
+}
+body{
+  background-color:#101010;
+  color:black;
+  width:800px;
+  height:100%;
+  margin:0px auto;
+  position:relative;
+}
+
+body>div{
+  background-color: #666666;
+  border:1px solid red;
+  margin:20px 0px;
+  padding:5px;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+ul#menu{
+  margin-left: 20px;
+}
+#menu li{
+  display:inline-block;
+}
+#menu li a{
+  display:inline-block;
+  height:40px;
+  width:100px;
+    background: url('menu.png') 0px 0px #666666 no-repeat;
+}
+#menu li:first-of-type a{
+  width:90px;
+}
+#menu li:nth-of-type(2) a{
+  background-position: -90px 0px;
+}
+#menu li:nth-of-type(3) a{
+  background-position: -190px 0px;
+  width:105px;
+}
+#menu li:last-of-type a{
+  width:90px;
+  background-position: -296px 0px;
+}
+#menu li a:hover{
+  background-image: url('menuHover.png');
+}
+#menu li a:active{
+  background-image: url('menuActive.png');
+}
+
+div[id]{
+  background-color: #CCCCCC;
+  padding:1em 2em;
+  display:none;
+  position:absolute;
+  left:0px;
+  right:0px;
+  top:40px;
+  bottom:0px;
+  overflow:auto;
+  -moz-border-radius:0px 0px 8px 8px;
+  -webkit-border-radius:0px 0px 8px 8px;
+  border-radius:0px 0px 8px 8px;
+}
+div:target{
+  display:block;
+}
